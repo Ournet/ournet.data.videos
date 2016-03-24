@@ -1,10 +1,11 @@
 {
   "name": "ournet.data.videos",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Ournet videos data module",
   "main": "./lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 0"
+    "test": "./node_modules/mocha/bin/mocha -t 8000",
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
@@ -18,8 +19,12 @@
   "author": "Dumitru Cantea",
   "license": "ISC",
   "dependencies": {
-    "joi": "^6.4.1",
-    "ournet.core": "^0.1.8",
-    "vogels": "^2.0.0-rc9"
+    "lodash": "^4.6.1",
+    "ournet.utils": "^0.1.0",
+    "vogels-helpers": "^0.1.6"
+  },
+  "devDependencies": {
+    "dotenv": "^2.0.0",
+    "mocha": "^2.4.5"
   }
 }
