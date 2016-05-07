@@ -1,6 +1,6 @@
 {
   "name": "ournet.data.videos",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Ournet videos data module",
   "main": "./lib/index.js",
   "scripts": {
