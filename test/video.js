@@ -1,6 +1,6 @@
 'use strict';
 
-var Video = require('../lib/db/video');
+var Video = require('../lib/video');
 var assert = require('assert');
 
 describe('Video', function() {
